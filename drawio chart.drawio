@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Day Routine Flowchart" id="0">
+    <mxGraphModel dx="1389" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Start" vertex="1">
+          <mxGeometry height="50" width="100" x="300" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wake" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Wake Up" vertex="1">
+          <mxGeometry height="50" width="120" x="300" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="breakfast" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Breakfast" vertex="1">
+          <mxGeometry height="50" width="120" x="300" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="decision" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="School Day?" vertex="1">
+          <mxGeometry height="80" width="140" x="290" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="school" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Go to School" vertex="1">
+          <mxGeometry height="50" width="140" x="120" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="relax" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Relax / Hobby" vertex="1">
+          <mxGeometry height="50" width="140" x="460" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="study" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Study / Homework" vertex="1">
+          <mxGeometry height="50" width="160" x="290" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="dinner" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Dinner" vertex="1">
+          <mxGeometry height="50" width="120" x="300" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="sleep" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Sleep" vertex="1">
+          <mxGeometry height="50" width="120" x="300" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="end" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="End" vertex="1">
+          <mxGeometry height="50" width="100" x="310" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="start" style="endArrow=block;" target="wake">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="wake" style="endArrow=block;" target="breakfast">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="breakfast" style="endArrow=block;" target="decision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="decision" style="endArrow=block;" target="school" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="decision" style="endArrow=block;" target="relax" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="school" style="endArrow=block;" target="study">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="relax" style="endArrow=block;" target="study">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="study" style="endArrow=block;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="dinner" style="endArrow=block;" target="sleep">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="sleep" style="endArrow=block;" target="end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="95WCWxlh3xFGKJxqpY_A-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Play/Relax" vertex="1">
+          <mxGeometry height="50" width="160" x="290" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="95WCWxlh3xFGKJxqpY_A-2" edge="1" parent="1" style="endArrow=block;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="369" y="630" as="sourcePoint" />
+            <mxPoint x="369.33" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
