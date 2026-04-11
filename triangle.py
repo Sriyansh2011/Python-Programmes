@@ -1,0 +1,10 @@
+import turtle
+turtle.Screen().bgcolor("red")
+board = turtle.Turtle()
+turtle.forward(100)
+turtle.right(120)
+turtle.forward(100)
+turtle.right(120)
+turtle.forward(100)
+turtle.right(120)
+turtle.done()
